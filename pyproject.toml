@@ -1,6 +1,6 @@
 [build-system]
-requires = ["flit"]
-build-backend = "flit.buildapi"
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "llava"
